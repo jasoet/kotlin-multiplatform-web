@@ -1,0 +1,41 @@
+GET http://localhost:8787/api/shop/
+Content-Type: application/json
+
+###
+DELETE http://localhost:8787/api/shop/5
+
+###
+POST http://localhost:8787/api/shop/
+Content-Type: application/json
+
+{
+  "name": "Peppers 🌶",
+  "priority": 5
+}
+
+###
+POST http://localhost:8787/api/shop/
+Content-Type: application/json
+
+{
+  "name": "Cucumbers 🥒",
+  "priority": 1
+}
+
+###
+POST http://localhost:8787/api/shop/
+Content-Type: application/json
+
+{
+  "name": "Tomatoes 🍅",
+  "priority": 4
+}
+
+###
+POST http://localhost:8787/api/shop/
+Content-Type: application/json
+
+{
+  "name": "Orange Juice 🍊",
+  "priority": 9
+}
